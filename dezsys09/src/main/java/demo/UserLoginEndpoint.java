@@ -21,11 +21,12 @@ public class UserLoginEndpoint {
 
     @POST
     public Response post(User user) {
-
         User loginuser = this.greetingService.findByEmail(user.getEmail());
         try{
-            if(loginuser != null){
-                return Response.status(Response.Status.OK).entity("Herzlich Willkommen: " + user.getEmail()).build();
+            if(loginuser != null) {
+                if (loginuser.getPassword().equals(user.getPassword())) {
+                    return Response.status(Response.Status.OK).entity("Herzlich Willkommen: " + user.getEmail()).build();
+                }
             }
         }catch(NullPointerException e){
         }

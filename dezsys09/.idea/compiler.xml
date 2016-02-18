@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="adler" />
         <module name="ee" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="adler" target="1.8" />
       <module name="ee" target="1.8" />
     </bytecodeTargetLevel>
   </component>

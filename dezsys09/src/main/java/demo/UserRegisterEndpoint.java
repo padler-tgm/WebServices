@@ -25,9 +25,9 @@ public class UserRegisterEndpoint {
         if(userService.findByEmail(user.getEmail()) != null){
             if(!(user.getEmail().isEmpty() || user.getName().isEmpty() || user.getPassword().isEmpty())) {
                 this.userService.createUser(user);
-                return Response.status(Response.Status.OK).entity("Erfolgreich registriert").build();
+                return Response.status(Response.Status.CREATED).entity("Erfolgreich registriert").build();
             }else{
-                return Response.status(Response.Status.CONFLICT).entity("Bitte füllen Sie alle Felder aus").build();
+                return Response.status(Response.Status.NOT_ACCEPTABLE).entity("Bitte füllen Sie alle Felder aus").build();
             }
         }else{
             return Response.status(Response.Status.FORBIDDEN).entity("Der User existiert bereits").build();
