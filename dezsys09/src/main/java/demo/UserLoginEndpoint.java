@@ -9,7 +9,9 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 /**
- * Created by philippadler on 16.02.16.
+ * Login Endpoint
+ * @author Philipp Adler
+ * @version 2016-02-18
  */
 @Named
 @Path("/login")
@@ -19,6 +21,11 @@ public class UserLoginEndpoint {
     @Inject
     private UserService greetingService;
 
+    /**
+     * Hier wird der User eingeloggt, es wird ueberprueft ob seine Daten korrekt sind
+     * @param user der User der sich anmelden möchte
+     * @return ob erfolgreich oder ob die Anmeldedaten falsch sind
+     */
     @POST
     public Response post(User user) {
         User loginuser = this.greetingService.findByEmail(user.getEmail());

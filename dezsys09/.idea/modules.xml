@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/adler.iml" filepath="$PROJECT_DIR$/adler.iml" />
       <module fileurl="file://$PROJECT_DIR$/ee.iml" filepath="$PROJECT_DIR$/ee.iml" />
     </modules>
   </component>

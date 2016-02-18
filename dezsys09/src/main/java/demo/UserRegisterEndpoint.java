@@ -9,7 +9,9 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 /**
- * Created by philippadler on 15.02.16.
+ * Registrierung Endpoint
+ * @author Philipp Adler
+ * @version 2016-02-18
  */
 
 @Named
@@ -20,6 +22,12 @@ public class UserRegisterEndpoint {
     @Inject
     private UserService userService;
 
+    /**
+     * Hier registriert sich der User, es wird ueberprueft ob der User bereits existiert oder
+     * alle notwendigen Daten ausgefuellt wurden
+     * @param user der User der sich registrieren möchte
+     * @return ob erfolgreich oder bereits existiert oder nicht alle Felder ausgefuellt hat
+     */
     @POST
     public Response post(User user) {
         if(userService.findByEmail(user.getEmail()) != null){
