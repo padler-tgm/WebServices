@@ -2,6 +2,7 @@ package demo;
 
 import javax.inject.Inject;
 import javax.inject.Named;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -30,7 +31,8 @@ public class UserRegisterEndpoint {
      */
     @POST
     public Response post(User user) {
-        if(userService.findByEmail(user.getEmail()) != null){
+        System.out.println("REGISTER");
+        if(userService.findByEmail(user.getEmail()) == null){
             if(!(user.getEmail().isEmpty() || user.getName().isEmpty() || user.getPassword().isEmpty())) {
                 this.userService.createUser(user);
                 return Response.status(Response.Status.CREATED).entity("Erfolgreich registriert").build();

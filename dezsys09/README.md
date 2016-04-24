@@ -2,7 +2,7 @@
 
 In this blog, I want to look at - and demonstrate - some of the _many_ new features in [Spring Boot 1.2](http://spring.io/projects/spring-boot) that make the lives of those coming from, or otherwise building on, Java EE easier.
 
-It's worth mentioning that a lot of this support has been possible with Spring before, of course, but now with Spring Boot 1.2, it's just so darned easy!
+It is worth mentioning that a lot of this support has been possible with Spring before, of course, but now with Spring Boot 1.2, it's just so darned easy!
 
 First, here's an example program with notes after.
 

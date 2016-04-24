@@ -1,0 +1,8 @@
+demo/Application.class
+demo/GreetingServiceClient.class
+demo/CRUD.class
+demo/UserService.class
+demo/User.class
+demo/UserRegisterEndpoint.class
+demo/UserLoginEndpoint.class
+demo/JerseyConfig.class

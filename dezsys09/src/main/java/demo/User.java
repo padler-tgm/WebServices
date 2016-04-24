@@ -31,6 +31,16 @@ public class User implements Serializable{
     public User(){}
 
     /**
+     * Konstruktor erstellt einen User anhand Email und seines Passworts
+     * @param email Email des Users
+     * @param password Passwort des Users
+     */
+    public User(String email, String password){
+        this.email = email;
+        this.password = password;
+    }
+
+    /**
      * Konstruktor erstellt einen User anhand seines Namens, Email und seines Passworts
      * @param name Name des Users
      * @param email Email des Users

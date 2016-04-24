@@ -1,8 +1,8 @@
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/CRUD.java
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/JerseyConfig.java
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/UserService.java
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/Application.java
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/UserLoginEndpoint.java
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/GreetingServiceClient.java
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/User.java
-/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/WebService/dezsys09/src/main/java/demo/UserRegisterEndpoint.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/GreetingServiceClient.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/User.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/JerseyConfig.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/CRUD.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/UserLoginEndpoint.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/UserService.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/Application.java
+/Users/philippadler/Documents/Systemtechnik/Micheler/5 Klasse/Software/dezsys09/src/main/java/demo/UserRegisterEndpoint.java
